@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+h1{
+  font-size: 1em;
+  color: #e7140d;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #F5F5F5;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif; 
+  text-transform: uppercase;
+  z-index: 2;
+
+}
+
+/* Center the page title at the top */
+#page-title {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  background-color:black;
+  color: green;
+  text-align: center;
+  z-index: 2; /* Ensure title is above the canvas */
+}
+
+/* Layout container for left and right links */
+.layout-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 150px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50px;
+  z-index: 2; /* Ensure links are above the canvas */
+}
+
+/* Left and Right Links */
+.left-container, .right-container {
+  width: 100px;
+  text-align: center;
+  color: black;
+  background-color: rgba(205, 243, 205, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+  color: white;
+  text-decoration: solid;
+}
+
+a:visited{
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+  z-index: 10; /* Ensure buttons appear above other content */
+}
+
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  background-color: green;
+}
+
