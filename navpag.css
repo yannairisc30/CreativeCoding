@@ -1,0 +1,59 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+div {
+  width: 100%;       
+  height: 25vh;    
+  display: flex;    
+  align-items: center;
+  justify-content: center;
+  color: white;  
+}
+
+/* Background images for each div */
+#fun-facts {
+  background-image: url("Images/Screenshot%202024-10-27%20222018.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#placeholder {
+  background-image: url("Images/Screenshot%202024-10-27%20223929.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#placeholder-2 {
+  background-image: url("Images/Screenshot%202024-10-27%20233927.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#my-dog {
+  background-image: url("Images/Screenshot%202024-10-27%20225545.png");
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  font-size: 2em; 
+  font-weight: bold; 
+  color: black; 
+  padding: 10px 20px; 
+  border: 6px solid green;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+a:hover {
+  background-color:white;
+  color: green;
+}
+
